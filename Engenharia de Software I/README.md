@@ -12,9 +12,9 @@
 
 ## Diagrama de classe UML
 
-<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/Diagrama%20de%20Classe.png">
+<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/UML.drawio.png">
 
-
+~~~java
 import java.util.LinkedList;
 import java.util.List;
 
@@ -99,7 +99,7 @@ public class Disciplina{
 	public void setMatéria(String novaMatéria){
 		matéria = novaMatéria;
 	}
-
+~~~
 
 
 
