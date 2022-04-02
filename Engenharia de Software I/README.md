@@ -8,6 +8,7 @@
 
 ## Requisitos Não Funcionais
 
+<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/Wireframe.png">
 
 
 ## Diagrama de classe UML
