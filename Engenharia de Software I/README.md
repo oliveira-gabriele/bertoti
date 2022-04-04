@@ -4,18 +4,42 @@
 
 ### Requisitos Funcionais
 
-<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/caso-de-uso.png">
+<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/img/caso-de-uso.png">
 
 ## Requisitos Não Funcionais
 
-<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/Wireframe.png">
+<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/img/%2310%20Heuristics.png">
 
+#1: Visibilidade do status do sistema
+
+#2: Jogo entre sistema e o mundo real
+
+#3: Controle e liberdade do usuário
+
+#4: Consistência e padrões
+
+#5: Prevenção de erros
+
+#6: Reconhecimento em vez de recordação
+
+#7: Flexibilidade e eficiência de uso
+
+#8: Design estético e minimalista
+
+#9: Ajude os usuários a reconhecer, diagnosticar e recuperar de erros
+
+#10: Ajuda e documentação
 
 ## Diagrama de classe UML
 
-<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/UML.drawio.png">
+<img src = "https://github.com/oliveira-gabriele/bertoti/blob/main/Engenharia%20de%20Software%20I/img/UML.drawio.png">
+
+## Desenvolvimento do Código 
+
+### Classe Plataforma de Ensino
 
 ~~~java
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -46,6 +70,12 @@ public class Plataforma de Ensino{
            return pessoas;
      }
 }
+
+~~~~
+
+### Classe Pessoa
+
+~~~java
 
 public class Pessoa{
 	
@@ -85,6 +115,13 @@ public class Pessoa{
 	}
 
 }
+
+~~~~
+
+### Classe Disciplina
+
+~~~java
+
 public class Disciplina{
 	
 	private String matéria;
