@@ -55,8 +55,8 @@ public class Pessoa{
 	
 	public Pessoa(int ra, String nome, String tipo) {
 		this.ra = ra;
-		this.placa = placa;
-		this.espec = espec;
+		this.nome = nome;
+		this.tipo = tipo;
 	}
 
 
@@ -64,7 +64,7 @@ public class Pessoa{
 		return ra;
 	}
 	
-	public void setRa(String novaPlaca){
+	public void setRa(String novoRa){
 		ra = novoRa;
 	}
 
@@ -89,8 +89,8 @@ public class Disciplina{
 	
 	private String matéria;
 		
-	public Pessoa(String matéria) {
-		this.placa = placa;
+	public Matéria(String matéria) {
+		this.matéria = matéria;
 	}
 
 	public String getMatéria(){
